@@ -1,0 +1,279 @@
+.body{
+}
+
+@font-face { font-family: Ralway_light; src: url('Raleway-Light.otf'); }
+
+/*HOME MENU*/
+
+.home-menu {
+    background: white;
+    height: 15%;
+}
+
+.home-menu .pure-menu {
+    color: dodgerblue;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+
+.home-menu ul{
+    position: relative;
+    float: left;
+    left: 50%;
+    margin-top: 3%;
+}
+
+
+.home-menu li a:visited {
+    background: none;
+    border: none;
+    color: #aecfe5;
+}
+
+.home-menu li a:active {
+    background: none;
+    border: none;
+    color: black;
+}
+
+.logo {
+    width:20%; /* you can use % */
+    height: auto;
+    position: relative;
+    float: left;
+    margin-left: 3%;
+    /*margin-top: 3%;*/
+}
+
+/* SPLASH*/
+
+.cementary {
+
+    position: relative;
+    margin-top: 100px;
+    background-color: white;
+    background-image: url(../../img/laczka005.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1350px;
+    height: 450px;
+    background-size: contain;
+}
+
+.grave{
+    position: absolute;
+    float:left;
+    display:block;
+    opacity: 0.4;
+    width: 30px;
+    height: 15px;
+    background: url("../../img/grob_krzyz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:2;
+    /*background-color: red;*/
+}
+
+.grave:hover {
+    opacity: 0.8;
+}
+
+.unexplored{
+    position: absolute;
+    float:left;
+    display:block;
+    opacity: 0.4;
+    width: 100px;
+    height: 280px;
+    background: url("../../img/yellow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -3px;
+    margin-left:231px;
+    z-index: 1;
+    /*background-color: red;*/
+}
+
+.unexplored:hover {
+    opacity: 0.8;
+}
+
+/* CONTENT*/
+
+.content-wrapper {
+    /* These styles are required for the "scroll-over" effect */
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    min-height: 10%;
+    z-index: 2;
+    background: white;
+
+}
+
+.content-head {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 1em 0 1em;
+}
+
+
+
+/* BOCZNE OKNO */
+
+#left_sidebar {
+    background-color: white;
+    /*#F7F7F1;*/
+    position: fixed;
+    left: 0;
+    top: 5px;
+    margin-top: 90px;
+    width: 230px;
+    height: 450px;
+    z-index: 1;
+    box-shadow: 0 0 3px rgba(0.0, 0.0,0.0, 0.0);
+    overflow-y:scroll;
+}
+
+.list{
+    font-size: 12px;
+    cursor: pointer;
+    background-image: url("../../img/cross.png");
+    background-size: 8px 12px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    margin-left: -20px;
+}
+
+
+.list:hover{
+    color: #E53A34;
+}
+
+ul{
+    margin-top: 2px;
+    line-height: 15px;
+    list-style-type: none;
+}
+
+#sidebar {
+    background-color: #F7F7F1;
+    position: fixed;
+    top: 5px;
+    margin-top: 90px;
+    right: 0;
+    width: 250px;
+    height: 450px;
+    z-index: 1;
+    box-shadow: 0 0 3px rgba(0.0, 0.0,0.0, 0.0);
+
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.off{
+    width: 5%;
+    height: auto;
+    float: right;
+    margin-top: 3%;
+    margin-right: 3%;
+    z-index: 9;
+    visibility: inherit;
+}
+
+#img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: #E6E5D4;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.biography{
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 15%;
+    z-index: 9;
+    visibility: inherit;
+    font-size: 14px;
+}
+
+.link-to-biography{
+    position: relative;
+    margin-top: 10px;
+    z-index: 9;
+    visibility: inherit;
+    text-align: center;
+}
+
+/* LABELE I BUTTONY */
+
+.pure-button {
+    width: 100%;
+}
+
+.pure-textarea {
+    width: 100%;
+}
+
+p {
+    margin: 2px auto;
+}
+
+#rnk {
+    font-family: 'Ralway_light';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+#who {
+    font-family: 'Ralway_light';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+
+#psd {
+    font-family: 'Ralway_light';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+}
+
+.laczka {
+}
+
+/*SCROLLBAR*/
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background-color: #eaeaea;
+    border-left: 1px solid #ccc;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+}
