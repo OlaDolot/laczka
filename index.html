@@ -46,6 +46,18 @@
 
     <!-- LEWE BOCZNE OKNO Z LISTA ZOLNIERZY -->
 
+    <div class="right_sidebar">
+        <p class="aim">
+            Po drugiej wojnie światowej żołnierze Armii Krajowej byli mordowani
+            przez władze PRL, a ich ciała były zakopywane w dołach pod murami cmentarzy.
+            Fundacja Łączka zajmuje się odnajdywaniem szczątków poległych żołnierzy,
+            ekshumacją i badaniami genetycznymi w celu ich identyfikacji. Szczątki wielu
+            żołnierzy znajdują się pod grobami zbudowanymi w latach późniejszych, co chwilowo
+            uniemożliwia dalsze prace. Mimo tej trudności powinniśmy doprowadzić do wydobycia
+            i pochowania z należytym szacunkiem naszych bohaterów narodowych.
+        </p>
+    </div>
+
     <div id="left_sidebar">
         <ul id="soldiers" class="laczka">
             <li id="S_Abramowski_l" class="list">Stanisław Abramowski</li>
@@ -133,20 +145,71 @@
                 <div id="W_Walicki" class="laczka grave"></div>
                 <div id="A_Wasilewski" class="laczka grave"></div>
                 <div id="R_Widelski" class="laczka grave"></div>
-                <div class="unexplored"></div>
+                <div class="laczka unex unexplored"></div>
+                <div class="laczka unex unexplored2"></div>
+                <div class="laczka unex unexplored3"></div>
+                <div class="laczka unex unexplored4"></div>
+                <div class="laczka pantheon"></div>
 
     </div>
 
 <!-- PRAWE BOCZNE OKNO DO WYŚWIETLANIA SZCZEGÓŁOWYCH INFORMACJI O ŻOŁNIERZACH -->
 
-    <div id="sidebar" class="rw r-window hidden">
+    <div id="sidebar" class="rw hidden">
         <img id="off" src="img/IconX.png" class="off">
-        <div id="img"></div>
+        <div id="img_back"><div id="img"></div></div>
         <p id="rnk" class = "names"></p>
         <p id="who" class = "names"></p>
         <p id="psd" class = "names"></p>
         <p id="bio" class = "biography"></p>
         <div class="link-to-biography"><a id="url" href=" ">Przeczytaj pełną biografię...</a></div>
+    </div>
+
+    <div id="sidebar2" class="rw hidden">
+        <img id="off2" src="img/IconX.png" class="off">
+        <div id="img_back_pantheon"><div id="img_pantheon"></div></div>
+        <div class="text_pantheon">
+                Wybudowano panteon, w którym pochowano odnalezione ciała żołnierzy.
+        </div>
+        <div class="link-to-biography"><a href=" ">Zobacz opis projektu...</a></div>
+    </div>
+
+    <!--UNEXPLORED AREAS-->
+
+    <div id="sidebar-unex" class="rw hidden">
+        <img id="off-unex" src="img/IconX.png" class="off">
+        <div class="people_unexplored">
+                Podejrzewamy, że moga tu leżeć:
+                <ul class="people_unex_ul">
+                    <li class="people_unex"> Żołnierz 1.1</li>
+                    <li class="people_unex"> Żołnierz 2.1</li>
+                    <li class="people_unex"> Żołnierz 3.1</li>
+                </ul>
+        </div>
+    </div>
+
+    <div id="sidebar-unex2" class="rw hidden">
+        <img id="off-unex2" src="img/IconX.png" class="off">
+        <div class="people_unexplored">
+                Podejrzewamy, że moga tu leżeć:
+                <ul class="people_unex_ul">
+                    <li class="people_unex"> Żołnierz 1.2</li>
+                    <li class="people_unex"> Żołnierz 2.2</li>
+                    <li class="people_unex"> Żołnierz 3.2</li>
+                </ul>
+        </div>
+    </div>
+
+    <div id="sidebar-unex3" class="rw hidden">
+        <img id="off-unex3" src="img/IconX.png" class="off">
+        <div class="people_unexplored">
+                Podejrzewamy, że moga tu leżeć:
+                <ul class="people_unex_ul">
+                    <li class="people_unex"> Żołnierz 1.3</li>
+                    <li class="people_unex"> Żołnierz 2.3</li>
+                    <li class="people_unex"> Żołnierz 3.3</li>
+                </ul>
+        </div>
     </div>
 
 </div>
@@ -301,10 +364,62 @@
             $('#url').attr('href', osoby[osoba].url);
             $($('#sidebar').removeClass('hidden'))
         }
+        $('#sidebar2').addClass('hidden');
+        $('#sidebar-unex').addClass('hidden');
+        $('#sidebar-unex2').addClass('hidden');
+        $('#sidebar-unex3').addClass('hidden');
+    });
+
+    $('.pantheon').on('click', function() {
+            $('#sidebar').addClass('hidden');
+            $('#sidebar-unex').addClass('hidden');
+            $('#sidebar-unex2').addClass('hidden');
+            $('#sidebar-unex3').addClass('hidden');
+            $('#sidebar2').toggleClass('hidden');
+    });
+
+    $('.unexplored').on('click', function() {
+            $('#sidebar').addClass('hidden');
+            $('#sidebar2').addClass('hidden');
+            $('#sidebar-unex2').addClass('hidden');
+            $('#sidebar-unex3').addClass('hidden');
+            $('#sidebar-unex').toggleClass('hidden');
+    });
+
+    $('.unexplored2').on('click', function() {
+            $('#sidebar').addClass('hidden');
+            $('#sidebar2').addClass('hidden');
+            $('#sidebar-unex').addClass('hidden');
+            $('#sidebar-unex3').addClass('hidden');
+            $('#sidebar-unex2').toggleClass('hidden');
+    });
+
+    $('.unexplored3').on('click', function() {
+            $('#sidebar').addClass('hidden');
+            $('#sidebar2').addClass('hidden');
+            $('#sidebar-unex2').addClass('hidden');
+            $('#sidebar-unex').addClass('hidden');
+            $('#sidebar-unex3').toggleClass('hidden');
     });
 
     $('#off').on('click', function() {
         $('#sidebar').addClass('hidden');
+    });
+
+    $('#off2').on('click', function() {
+        $('#sidebar-unex').addClass('hidden');
+    });
+
+    $('#off-unex').on('click', function() {
+        $('#sidebar-unex').addClass('hidden');
+    });
+
+    $('#off-unex2').on('click', function() {
+        $('#sidebar-unex2').addClass('hidden');
+    });
+
+    $('#off-unex3').on('click', function() {
+        $('#sidebar-unex3').addClass('hidden');
     });
 
     $('.list').on('mouseover', function() {
@@ -370,11 +485,6 @@
         $('.laczka').addClass('hidden');
     }
 
-
-    function shutdown() {
-        var showme = document.getElementById("rw");
-        showme.style.visibility = "hidden";
-    }
 </script>
 
 
