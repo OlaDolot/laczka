@@ -184,8 +184,7 @@ var osoby = {
             'rnk': "komandor",
             'who': "Stanisław Mieszkowski",
             'psd': "",
-            'bio': " Tu został znaleziony Komandor Stanisław Mieszkowski. W 1949 mianowany dowódcą Floty Marynarki Wojennej." +
-                   " Aresztowany w 1950 roku, dwa lata spędził w więzieniu. Rozstrzelany w 1952.",
+            'bio': " ",
             'url': "https://pl.wikipedia.org/wiki/Stanis%C5%82aw_Mieszkowski"
         },
         'A_Olechnowicz' : {
@@ -325,3 +324,447 @@ var osoby = {
             'url': "https://pl.wikipedia.org/wiki/Ryszard_Widelski"
         }
     };
+
+var pochowani = {
+    'O8_1': {
+        'who2': "Adam Kalinowski",
+        'date': "17-10-1982",
+        'bio2': " "
+    },
+    'O8_2': {
+        'who2': "Krystyn Krasucki",
+        'date': "1-10-1982",
+        'bio2': " "
+    },
+    'O8_3': {
+        'who2': "Czesław Jurys, Janina Jurys, Stanisław Tkaczyk",
+        'date': "3-12-1970, 3-12-1970, 29-9-1982",
+        'bio2': " "
+    },
+    'O8_4': {
+        'who2': "Ryszard Poznański",
+        'date': "18-9-1982",
+        'bio2': " "
+    },
+    'O8_5': {
+        'who2': "Tadeusz Kopaniak",
+        'date': "15-9-1982",
+        'bio2': " "
+    },
+    'O8_6': {
+        'who2': "Maria Zabiełło, Jerzy Zabiełło",
+        'date': "26-10-1988, 10-9-1982",
+        'bio2': " "
+    },
+    'O8_7': {
+        'who2': "Eugenia Kozłowska, Tadeusz Kozłowski",
+        'date': "1-12-1998, 3-9-1982",
+        'bio2': " "
+    },
+    'O8_8': {
+        'who2': "Irena Szpajda, Hilary Szpajda",
+        'date': "22-11-2007, 27-8-1982",
+        'bio2': " "
+    },
+    'O8_9': {
+        'who2': "Emil Dubiel",
+        'date': "26-8-1982",
+        'bio2': " "
+    },
+    'O8_10': {
+        'who2': "Barbara Płaczkowska, Maria Szymkowiak, Tadeusz Szymkowiak",
+        'date': "1-1-2001, 9-8-1982, 10-7-1991",
+        'bio2': " "
+    },
+    'O8_11': {
+        'who2': "Stanisława Bylina, Michał Bylina",
+        'date': "31-12-1992, 5-8-1982",
+        'bio2': " "
+    },
+    'O7_1': {
+        'who2': "Jan Kozina",
+        'date': "11-11-1982",
+        'bio2': " "
+    },
+    'O7_2': {
+        'who2': "Wacław Kryński",
+        'date': "6-11-1982",
+        'bio2': " "
+    },
+    'O7_3': {
+        'who2': "Mieczysław Bartnicki",
+        'date': "7-11-1982",
+        'bio2': " "
+    },
+    'O7_4': {
+        'who2': "Józef Peślak",
+        'date': "5-11-1982",
+        'bio2': " "
+    },
+    'O7_5': {
+        'who2': "Roman Zbyszewski",
+        'date': "27-10-1982",
+        'bio2': " "
+    },
+    'O7_6': {
+        'who2': "Rudolf Osit",
+        'date': "25-10-1982",
+        'bio2': " "
+    },
+    'O7_7': {
+        'who2': "Edward Kaszlej",
+        'date': "2-11-1982",
+        'bio2': " "
+    },
+    'O7_8': {
+        'who2': "Zbigniew Palkij-Grechowicz",
+        'date': "26-10-1982",
+        'bio2': " "
+    },
+    'O7_9': {
+        'who2': "Jan Zacharczuk",
+        'date': "20-11-1982",
+        'bio2': " "
+    },
+    'O7_10': {
+        'who2': "Zbigniew Górski",
+        'date': "9-10-1982",
+        'bio2': " "
+    },
+    'O7_11': {
+        'who2': "Jan Nagiel",
+        'date': "4-10-1982",
+        'bio2': " "
+    },
+    'O6_1': {
+        'who2': "Daniel Kowalewski",
+        'date': "18-1-1983",
+        'bio2': " "
+    },
+    'O6_2': {
+        'who2': "Jan Furman",
+        'date': "16-1-1983",
+        'bio2': " "
+    },
+    'O6_3': {
+        'who2': "Józef Nowicki",
+        'date': "5-1-1983",
+        'bio2': " "
+    },
+    'O6_4': {
+        'who2': "Henryk Duszyński",
+        'date': "3-1-1983",
+        'bio2': " "
+    },
+    'O6_5': {
+        'who2': "Wiktor Kiślak",
+        'date': "25-12-1982",
+        'bio2': " "
+    },
+    'O6_6': {
+        'who2': "Maria Zabiełło, Jerzy Zabiełło",
+        'date': "26-10-1988, 10-9-1982",
+        'bio2': " "
+    },
+    'O6_7': {
+        'who2': "Eugenia Kozłowska, Tadeusz Kozłowski",
+        'date': "1-12-1998, 3-9-1982",
+        'bio2': " "
+    },
+    'O6_8': {
+        'who2': "Irena Szpajda, Hilary Szpajda",
+        'date': "22-11-2007, 27-8-1982",
+        'bio2': " "
+    },
+    'O6_9': {
+        'who2': "Emil Dubiel",
+        'date': "26-8-1982",
+        'bio2': " "
+    },
+    'O6_10': {
+        'who2': "Barbara Płaczkowska, Maria Szymkowiak, Tadeusz Szymkowiak",
+        'date': "1-1-2001, 9-8-1982, 10-7-1991",
+        'bio2': " "
+    },
+    'O6_11': {
+        'who2': "Stanisława Bylina, Michał Bylina",
+        'date': "31-12-1992, 5-8-1982",
+        'bio2': " "
+    },
+    'O5_1': {
+        'who2': "Adam Kalinowski",
+        'date': "17-10-1982",
+        'bio2': " "
+    },
+    'O5_2': {
+        'who2': "Krystyn Krasucki",
+        'date': "1-10-1982",
+        'bio2': " "
+    },
+    'O5_3': {
+        'who2': "Czesław Jurys, Janina Jurys, Stanisław Tkaczyk",
+        'date': "3-12-1970, 3-12-1970, 29-9-1982",
+        'bio2': " "
+    },
+    'O5_4': {
+        'who2': "Ryszard Poznański",
+        'date': "18-9-1982",
+        'bio2': " "
+    },
+    'O5_5': {
+        'who2': "Tadeusz Kopaniak",
+        'date': "15-9-1982",
+        'bio2': " "
+    },
+    'O5_6': {
+        'who2': "Maria Zabiełło, Jerzy Zabiełło",
+        'date': "26-10-1988, 10-9-1982",
+        'bio2': " "
+    },
+    'O5_7': {
+        'who2': "Eugenia Kozłowska, Tadeusz Kozłowski",
+        'date': "1-12-1998, 3-9-1982",
+        'bio2': " "
+    },
+    'O5_8': {
+        'who2': "Irena Szpajda, Hilary Szpajda",
+        'date': "22-11-2007, 27-8-1982",
+        'bio2': " "
+    },
+    'O5_9': {
+        'who2': "Emil Dubiel",
+        'date': "26-8-1982",
+        'bio2': " "
+    },
+    'O5_10': {
+        'who2': "Barbara Płaczkowska, Maria Szymkowiak, Tadeusz Szymkowiak",
+        'date': "1-1-2001, 9-8-1982, 10-7-1991",
+        'bio2': " "
+    },
+    'O5_11': {
+        'who2': "Stanisława Bylina, Michał Bylina",
+        'date': "31-12-1992, 5-8-1982",
+        'bio2': " "
+    },
+    'O4_1': {
+        'who2': "Adam Kalinowski",
+        'date': "17-10-1982",
+        'bio2': " "
+    },
+    'O4_2': {
+        'who2': "Krystyn Krasucki",
+        'date': "1-10-1982",
+        'bio2': " "
+    },
+    'O4_3': {
+        'who2': "Czesław Jurys, Janina Jurys, Stanisław Tkaczyk",
+        'date': "3-12-1970, 3-12-1970, 29-9-1982",
+        'bio2': " "
+    },
+    'O4_4': {
+        'who2': "Ryszard Poznański",
+        'date': "18-9-1982",
+        'bio2': " "
+    },
+    'O4_5': {
+        'who2': "Tadeusz Kopaniak",
+        'date': "15-9-1982",
+        'bio2': " "
+    },
+    'O4_6': {
+        'who2': "Maria Zabiełło, Jerzy Zabiełło",
+        'date': "26-10-1988, 10-9-1982",
+        'bio2': " "
+    },
+    'O4_7': {
+        'who2': "Eugenia Kozłowska, Tadeusz Kozłowski",
+        'date': "1-12-1998, 3-9-1982",
+        'bio2': " "
+    },
+    'O4_8': {
+        'who2': "Irena Szpajda, Hilary Szpajda",
+        'date': "22-11-2007, 27-8-1982",
+        'bio2': " "
+    },
+    'O4_9': {
+        'who2': "Emil Dubiel",
+        'date': "26-8-1982",
+        'bio2': " "
+    },
+    'O4_10': {
+        'who2': "Barbara Płaczkowska, Maria Szymkowiak, Tadeusz Szymkowiak",
+        'date': "1-1-2001, 9-8-1982, 10-7-1991",
+        'bio2': " "
+    },
+    'O4_11': {
+        'who2': "Stanisława Bylina, Michał Bylina",
+        'date': "31-12-1992, 5-8-1982",
+        'bio2': " "
+    },
+    'O3_1': {
+        'who2': "Adam Kalinowski",
+        'date': "17-10-1982",
+        'bio2': " "
+    },
+    'O3_2': {
+        'who2': "Krystyn Krasucki",
+        'date': "1-10-1982",
+        'bio2': " "
+    },
+    'O3_3': {
+        'who2': "Czesław Jurys, Janina Jurys, Stanisław Tkaczyk",
+        'date': "3-12-1970, 3-12-1970, 29-9-1982",
+        'bio2': " "
+    },
+    'O3_4': {
+        'who2': "Ryszard Poznański",
+        'date': "18-9-1982",
+        'bio2': " "
+    },
+    'O3_5': {
+        'who2': "Tadeusz Kopaniak",
+        'date': "15-9-1982",
+        'bio2': " "
+    },
+    'O3_6': {
+        'who2': "Maria Zabiełło, Jerzy Zabiełło",
+        'date': "26-10-1988, 10-9-1982",
+        'bio2': " "
+    },
+    'O3_7': {
+        'who2': "Eugenia Kozłowska, Tadeusz Kozłowski",
+        'date': "1-12-1998, 3-9-1982",
+        'bio2': " "
+    },
+    'O3_8': {
+        'who2': "Irena Szpajda, Hilary Szpajda",
+        'date': "22-11-2007, 27-8-1982",
+        'bio2': " "
+    },
+    'O3_9': {
+        'who2': "Emil Dubiel",
+        'date': "26-8-1982",
+        'bio2': " "
+    },
+    'O3_10': {
+        'who2': "Barbara Płaczkowska, Maria Szymkowiak, Tadeusz Szymkowiak",
+        'date': "1-1-2001, 9-8-1982, 10-7-1991",
+        'bio2': " "
+    },
+    'O3_11': {
+        'who2': "Stanisława Bylina, Michał Bylina",
+        'date': "31-12-1992, 5-8-1982",
+        'bio2': " "
+    },
+    'O2_1': {
+        'who2': "Adam Kalinowski",
+        'date': "17-10-1982",
+        'bio2': " "
+    },
+    'O2_2': {
+        'who2': "Krystyn Krasucki",
+        'date': "1-10-1982",
+        'bio2': " "
+    },
+    'O2_3': {
+        'who2': "Czesław Jurys, Janina Jurys, Stanisław Tkaczyk",
+        'date': "3-12-1970, 3-12-1970, 29-9-1982",
+        'bio2': " "
+    },
+    'O2_4': {
+        'who2': "Ryszard Poznański",
+        'date': "18-9-1982",
+        'bio2': " "
+    },
+    'O2_5': {
+        'who2': "Tadeusz Kopaniak",
+        'date': "15-9-1982",
+        'bio2': " "
+    },
+    'O2_6': {
+        'who2': "Maria Zabiełło, Jerzy Zabiełło",
+        'date': "26-10-1988, 10-9-1982",
+        'bio2': " "
+    },
+    'O2_7': {
+        'who2': "Eugenia Kozłowska, Tadeusz Kozłowski",
+        'date': "1-12-1998, 3-9-1982",
+        'bio2': " "
+    },
+    'O2_8': {
+        'who2': "Irena Szpajda, Hilary Szpajda",
+        'date': "22-11-2007, 27-8-1982",
+        'bio2': " "
+    },
+    'O2_9': {
+        'who2': "Emil Dubiel",
+        'date': "26-8-1982",
+        'bio2': " "
+    },
+    'O2_10': {
+        'who2': "Barbara Płaczkowska, Maria Szymkowiak, Tadeusz Szymkowiak",
+        'date': "1-1-2001, 9-8-1982, 10-7-1991",
+        'bio2': " "
+    },
+    'O2_11': {
+        'who2': "Stanisława Bylina, Michał Bylina",
+        'date': "31-12-1992, 5-8-1982",
+        'bio2': " "
+    },
+    'O1_1': {
+        'who2': "Adam Kalinowski",
+        'date': "17-10-1982",
+        'bio2': " "
+    },
+    'O1_2': {
+        'who2': "Krystyn Krasucki",
+        'date': "1-10-1982",
+        'bio2': " "
+    },
+    'O1_3': {
+        'who2': "Czesław Jurys, Janina Jurys, Stanisław Tkaczyk",
+        'date': "3-12-1970, 3-12-1970, 29-9-1982",
+        'bio2': " "
+    },
+    'O1_4': {
+        'who2': "Ryszard Poznański",
+        'date': "18-9-1982",
+        'bio2': " "
+    },
+    'O1_5': {
+        'who2': "Tadeusz Kopaniak",
+        'date': "15-9-1982",
+        'bio2': " "
+    },
+    'O1_6': {
+        'who2': "Maria Zabiełło, Jerzy Zabiełło",
+        'date': "26-10-1988, 10-9-1982",
+        'bio2': " "
+    },
+    'O1_7': {
+        'who2': "Eugenia Kozłowska, Tadeusz Kozłowski",
+        'date': "1-12-1998, 3-9-1982",
+        'bio2': " "
+    },
+    'O1_8': {
+        'who2': "Irena Szpajda, Hilary Szpajda",
+        'date': "22-11-2007, 27-8-1982",
+        'bio2': " "
+    },
+    'O1_9': {
+        'who2': "Emil Dubiel",
+        'date': "26-8-1982",
+        'bio2': " "
+    },
+    'O1_10': {
+        'who2': "Barbara Płaczkowska, Maria Szymkowiak, Tadeusz Szymkowiak",
+        'date': "1-1-2001, 9-8-1982, 10-7-1991",
+        'bio2': " "
+    },
+    'O1_11': {
+        'who2': "Stanisława Bylina, Michał Bylina",
+        'date': "31-12-1992, 5-8-1982",
+        'bio2': " "
+    }
+
+}

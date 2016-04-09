@@ -1,0 +1,226 @@
+/*LOCATION OF GRAVES*/
+
+@mixin position($top, $left, $rotate, $width: "") {
+    top: $top;
+    left: $left;
+    transform: rotate($rotate);
+    @if $width != "" {
+      width: $width !important;
+    }
+}
+
+@mixin pos($top, $left, $rotate, $name, $width: "", $height: "") {
+    #{$name} {
+        top: $top;
+        left: $left;
+        transform:rotate($rotate);
+        @if $width != "" {
+            width: $width !important;
+            height: $height !important;
+            background-size: contain;
+        }
+    }
+}
+
+    @include pos(365px, 224px, 10deg, "#S_Abramowski");
+    @include pos(135px, 377px, 2deg, "#W_Borowiec");
+    @include pos(242px, 273px, 2deg, "#H_Borowski");
+    @include pos(151px, 377px, 2deg, "#B_Budelewski");
+    @include pos(302px, 273px, 2deg, "#E_Bukowski");
+    @include pos(361px, 458px, 2deg, "#J_Czeredys");
+    @include pos(222px, 273px, 2deg, "#J_Czerwiakowski");
+    @include pos(82px, 273px, 2deg, "#B_Czescik");
+    @include pos(272px, 471px, 2deg, "#H_Dekutowski", 26px);
+    @include pos(244px, 457px, 2deg, "#A_Gajdek");
+    @include pos(202px, 273px, 2deg, "#S_Glowacki");
+    @include pos(140px, 445px, 2deg, "#R_Gronski", 24px, 12px);
+    @include pos(297px, 374px, 2deg, "#M_Kaczmarek");
+    @include pos(98px, 377px, 2deg, "#S_Kasznica");
+    @include pos(385px, 600px, 2deg, "#A_Kita", 26px);
+    @include pos(62px, 422px, 2deg, "#B_Kontrym");
+    @include pos(182px, 273px, 2deg, "#J_Kozlowski");
+    @include pos(62px, 273px, 2deg, "#Z_Kulinski");
+    @include pos(191px, 512px, 2deg, "#S_Kutryb");
+    @include pos(42px, 273px, 2deg, "#S_Lukasik");
+    @include pos(271px, 444px, 2deg, "#J_Lukaszewicz", 26px);
+    @include pos(139px, 420px, 2deg, "#J_Miatkowski", 24px, 12px);
+    @include pos(353px, 601px, 2deg, "#S_Mieszkowski", 26px);
+    @include pos(376px, 458px, 2deg, "#A_Olechnowicz");
+    @include pos(386px, 626px, 2deg, "#M_Orlik", 26px);
+    @include pos(184px, 424px, 2deg, "#R_Pawlowski");
+    @include pos(2px, 273px, 2deg, "#T_Pelak");
+    @include pos(354px, 627px, 2deg, "#Z_Przybyszewski", 26px);
+    @include pos(22px, 273px, 2deg, "#E_Pytko");
+    @include pos(157px, 516px, 2deg, "#K_Rakoczy");
+    @include pos(162px, 273px, 2deg, "#E_Smolinski");
+    @include pos(141px, 517px, 2deg, "#D_Sosnowski");
+    @include pos(142px, 273px, 2deg, "#Z_Szendzielarz");
+    @include pos(282px, 273px, 2deg, "#Z_Szymanowski");
+    @include pos(102px, 273px, 2deg, "#L_Swider");
+    @include pos(92px, 520px, 2deg, "#A_Tomaszewski");
+    @include pos(152px, 420px, 2deg, "#E_Tudruj", 24px, 12px);
+    @include pos(122px, 273px, 2deg, "#W_Walicki");
+    @include pos(153px, 445px, 2deg, "#A_Wasilewski", 24px, 12px);
+    @include pos(262px, 273px, 2deg, "#R_Widelski");
+
+    /*NIEZNANE*/
+    /*ZOLTE*/
+
+    #NN1{ @include position(316px, 458px, 2deg)}
+    #NN2{ @include position(331px, 458px, 2deg)}
+    #NN3{ @include position(346px, 458px, 2deg)}
+    #NN4{ @include position(319px, 504px, 2deg)}
+    #NN5{ @include position(334px, 504px, 2deg)}
+    #NN6{ @include position(349px, 504px, 2deg)}
+    #NN7{ @include position(364px, 504px, 2deg)}
+    #NN8{ @include position(379px, 504px, 2deg)}
+    #NN9{ @include position(350px, 549px, 2deg)}
+    #NN10{ @include position(365px, 549px, 2deg)}
+    #NN11{ @include position(380px, 549px, 2deg)}
+    #NN12{ @include position(355px, 415px, 2deg)}
+    #NN13{ @include position(334px, 373px, 2deg)}
+    #NN14{ @include position(350px, 371px, 2deg)}
+    #NN15{ @include position(366px, 371px, 2deg)}
+    #NN16{ @include position(370px, 611px, 2deg)}
+    #NN17{ @include position(336px, 670px, 2deg)}
+    #NN18{ @include position(351px, 670px, 2deg)}
+    #NN19{ @include position(366px, 670px, 2deg)}
+    #NN20{ @include position(382px, 670px, 2deg)}
+    #NN21{ @include position(397px, 668px, 2deg)}
+    #NN22{ @include position(288px, 592px, 2deg)}
+    #NN23{ @include position(266px, 593px, 2deg)}
+
+    /*ZIELONE*/
+
+    #NN24{ @include position(173px, 510px, 2deg)}
+    #NN25{ @include position(209px, 510px, 2deg)}
+    #NN26{ @include position(241px, 510px, 2deg)}
+    #NN27{ @include position(273px, 508px, 2deg)}
+    #NN28{ @include position(289px, 508px, 2deg)}
+    #NN29{ @include position(307px, 551px, 2deg)}
+    #NN30{ @include position(292px, 552px, 2deg)}
+    #NN31{ @include position(277px, 553px, 2deg)}
+    #NN32{ @include position(260px, 554px, 2deg)}
+    #NN33{ @include position(244px, 554px, 2deg)}
+    #NN34{ @include position(227px, 556px, 2deg)}
+    #NN35{ @include position(210px, 556px, 2deg)}
+    #NN36{ @include position(192px, 557px, 2deg)}
+    #NN37{ @include position(163px, 561px, 2deg)}
+    #NN38{ @include position(147px, 561px, 2deg)}
+    #NN39{ @include position(130px, 562px, 2deg)}
+    #NN40{ @include position(114px, 564px, 2deg)}
+    #NN41{ @include position(98px, 565px, 2deg)}
+    #NN42{ @include position(83px, 566px, 2deg)}
+    #NN43{ @include position(67px, 568px, 2deg)}
+    #NN44{ @include position(122px, 423px, 2deg)}
+    #NN45{ @include position(107px, 423px, 2deg)}
+    #NN46{ @include position(92px, 423px, 2deg)}
+    #NN47{ @include position(77px, 423px, 2deg)}
+    #NN48{ @include position(125px, 518px, 2deg)}
+    #NN49{ @include position(109px, 518px, 2deg)}
+    #NN50{ @include position(297px, 421px, 2deg)}
+    #NN51{ @include position(79px, 377px, 2deg)}
+    #NN52{ @include position(119px, 377px, 2deg)}
+    #NN53{ @include position(62px, 377px, 2deg)}
+    #NN54{ @include position(99px, 472px, 2deg)}
+    #NN55{ @include position(83px, 472px, 2deg)}
+    #NN56{ @include position(68px, 471px, 2deg)}
+    #NN57{ @include position(277px, 375px, 2deg)}
+    #NN58{ @include position(256px, 375px, 2deg)}
+    #NN59{ @include position(236px, 376px, 2deg)}
+    #NN60{ @include position(216px, 377px, 2deg)}
+    #NN61{ @include position(198px, 377px, 2deg)}
+    #NN62{ @include position(167px, 377px, 2deg)}
+    #NN63{ @include position(200px, 423px, 2deg)}
+    #NN64{ @include position(167px, 424px, 2deg)}
+
+    //ZWYKLE
+
+    #O8_1{ @include position(74px, 642px, 2deg)}
+    #O8_2{ @include position(96px, 640px, 2deg)}
+    #O8_3{ @include position(117px, 639px, 2deg)}
+    #O8_4{ @include position(141px, 638px, 2deg)}
+    #O8_5{ @include position(165px, 637px, 2deg)}
+    #O8_6{ @include position(187px, 636px, 2deg)}
+    #O8_7{ @include position(210px, 634px, 2deg)}
+    #O8_8{ @include position(233px, 634px, 2deg)}
+    #O8_9{ @include position(255px, 631px, 2deg)}
+    #O8_10{ @include position(278px, 631px, 2deg)}
+    #O8_11{ @include position(300px, 630px, 2deg)}
+    #O7_1{ @include position(76px, 690px, 2deg)}
+    #O7_2{ @include position(98px, 690px, 2deg)}
+    #O7_3{ @include position(121px, 688px, 2deg)}
+    #O7_4{ @include position(143px, 686px, 2deg)}
+    #O7_5{ @include position(167px, 684px, 2deg)}
+    #O7_6{ @include position(191px, 684px, 2deg)}
+    #O7_7{ @include position(212px, 682px, 2deg)}
+    #O7_8{ @include position(236px, 680px, 2deg)}
+    #O7_9{ @include position(257px, 680px, 2deg)}
+    #O7_10{ @include position(280px, 678px, 2deg)}
+    #O7_11{ @include position(302px, 678px, 2deg)}
+    #O6_1{ @include position(77px, 746px, 2deg)}
+    #O6_2{ @include position(99px, 744px, 2deg)}
+    #O6_3{ @include position(120px, 743px, 2deg)}
+    #O6_4{ @include position(144px, 742px, 2deg)}
+    #O6_5{ @include position(170px, 738px, 2deg)}
+    #O6_6{ @include position(197px, 737px, 2deg)}
+    #O6_7{ @include position(218px, 737px, 2deg)}
+    #O6_8{ @include position(239px, 735px, 2deg)}
+    #O6_9{ @include position(261px, 733px, 2deg)}
+    #O6_10{ @include position(286px, 734px, 2deg)}
+    #O6_11{ @include position(307px, 731px, 2deg)}
+    #O5_1{ @include position(80px, 789px, 2deg)}
+    #O5_2{ @include position(101px, 785px, 2deg)}
+    #O5_3{ @include position(125px, 784px, 2deg)}
+    #O5_4{ @include position(149px, 783px, 2deg)}
+    #O5_5{ @include position(172px, 781px, 2deg)}
+    #O5_6{ @include position(196px, 779px, 2deg)}
+    #O5_7{ @include position(218px, 778px, 2deg)}
+    #O5_8{ @include position(242px, 779px, 2deg)}
+    #O5_9{ @include position(265px, 776px, 2deg)}
+    #O5_10{ @include position(288px, 774px, 2deg)}
+    #O5_11{ @include position(312px, 773px, 2deg)}
+    #O4_1{ @include position(79px, 847px, 2deg)}
+    #O4_2{ @include position(103px, 844px, 2deg)}
+    #O4_3{ @include position(127px, 844px, 2deg)}
+    #O4_4{ @include position(151px, 842px, 2deg)}
+    #O4_5{ @include position(175px, 841px, 2deg)}
+    #O4_6{ @include position(199px, 838px, 2deg)}
+    #O4_7{ @include position(223px, 836px, 2deg)}
+    #O4_8{ @include position(246px, 834px, 2deg)}
+    #O4_9{ @include position(268px, 834px, 2deg)}
+    #O4_10{ @include position(291px, 833px, 2deg)}
+    #O4_11{ @include position(317px, 830px, 2deg)}
+    #O3_1{ @include position(80px, 897px, 2deg)}
+    #O3_2{ @include position(104px, 895px, 2deg)}
+    #O3_3{ @include position(128px, 894px, 2deg)}
+    #O3_4{ @include position(152px, 891px, 2deg)}
+    #O3_5{ @include position(179px, 890px, 2deg)}
+    #O3_6{ @include position(200px, 890px, 2deg)}
+    #O3_7{ @include position(224px, 888px, 2deg)}
+    #O3_8{ @include position(248px, 886px, 2deg)}
+    #O3_9{ @include position(270px, 885px, 2deg)}
+    #O3_10{ @include position(295px, 883px, 2deg)}
+    #O3_11{ @include position(320px, 882px, 2deg)}
+    #O2_1{ @include position(83px, 946px, 2deg)}
+    #O2_2{ @include position(107px, 945px, 2deg)}
+    #O2_3{ @include position(130px, 943px, 2deg)}
+    #O2_4{ @include position(154px, 939px, 2deg)}
+    #O2_5{ @include position(180px, 940px, 2deg)}
+    #O2_6{ @include position(206px, 939px, 2deg)}
+    #O2_7{ @include position(228px, 937px, 2deg)}
+    #O2_8{ @include position(251px, 934px, 2deg)}
+    #O2_9{ @include position(274px, 932px, 2deg)}
+    #O2_10{ @include position(297px, 931px, 2deg)}
+    #O2_11{ @include position(323px, 929px, 2deg)}
+    #O1_1{ @include position(84px, 991px, 2deg)}
+    #O1_2{ @include position(109px, 990px, 2deg)}
+    #O1_3{ @include position(134px, 988px, 2deg)}
+    #O1_4{ @include position(157px, 984px, 2deg)}
+    #O1_5{ @include position(183px, 982px, 2deg)}
+    #O1_6{ @include position(209px, 981px, 2deg)}
+    #O1_7{ @include position(232px, 980px, 2deg)}
+    #O1_8{ @include position(254px, 977px, 2deg)}
+    #O1_9{ @include position(278px, 976px, 2deg)}
+    #O1_10{ @include position(301px, 975px, 2deg)}
+    #O1_11{ @include position(328px, 971px, 2deg)}

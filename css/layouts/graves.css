@@ -1,209 +1,995 @@
 /*LOCATION OF GRAVES*/
+#S_Abramowski {
+  top: 365px;
+  left: 224px;
+  transform: rotate(10deg); }
 
-#S_Abramowski{
-    top: 305px;
-    left: 444px;
-    transform:rotate(10deg);
-}
+#W_Borowiec {
+  top: 135px;
+  left: 377px;
+  transform: rotate(2deg); }
 
-#W_Borowiec{
-    top: 126px;
-    left: 357px;
-    transform:rotate(25deg);
-}
+#H_Borowski {
+  top: 242px;
+  left: 273px;
+  transform: rotate(2deg); }
 
-#H_Borowski{
-    top: 430px;
-    left: 1011px;
-    transform:rotate(45deg);
-}
+#B_Budelewski {
+  top: 151px;
+  left: 377px;
+  transform: rotate(2deg); }
 
-#B_Budelewski{
-    top: 146px;
-    left: 357px;
-    transform:rotate(25deg);
-}
+#E_Bukowski {
+  top: 302px;
+  left: 273px;
+  transform: rotate(2deg); }
 
-#E_Bukowski{
-    top: 321px;
-    left: 441px;
-    transform:rotate(10deg);
-}
+#J_Czeredys {
+  top: 361px;
+  left: 458px;
+  transform: rotate(2deg); }
 
-#J_Czeredys{
-    top: 337px;
-    left: 438px;
-    transform:rotate(10deg);
-}
+#J_Czerwiakowski {
+  top: 222px;
+  left: 273px;
+  transform: rotate(2deg); }
 
-#J_Czerwiakowski{
-    top: 410px;
-    left: 1011px;
-    transform:rotate(45deg);
-}
+#B_Czescik {
+  top: 82px;
+  left: 273px;
+  transform: rotate(2deg); }
 
-#B_Czescik{
-    top: 186px;
-    left: 357px;
-    transform:rotate(25deg);
-}
-#H_Dekutowski{
-    top: 268px;
-    left: 411px;
-    transform:rotate(45deg);
-}
-#A_Gajdek{
-    top: 246px;
-    left: 453px;
-    transform:rotate(10deg);
-}
-#S_Glowacki{
-    top: 348px;
-    left: 1091px;
-    transform:rotate(45deg);
-}
-#R_Gronski{
-    top: 189px;
-    left: 453px;
-    transform:rotate(10deg);
-}
-#M_Kaczmarek{
-    top: 328px;
-    left: 371px;
-    transform:rotate(45deg);
-}
-#S_Kasznica{
-    top: 146px;
-    left: 337px;
-    transform:rotate(25deg);
-}
-#A_Kita{
-    top: 375px;
-    left: 600px;
-    transform:rotate(9deg);
-}
-#B_Kontrym{
-    top: 106px;
-    left: 377px;
-    transform:rotate(25deg);
-}
-#J_Kozlowski{
-    top: 117px;
-    left: 1092px;
-    transform:rotate(45deg);
-}
-#Z_Kulinski{
-    top: 326px;
-    left: 257px;
-    transform:rotate(25deg);
-}
-#S_Kutryb{
-    top: 448px;
-    left: 511px;
-    transform:rotate(45deg);
-}
-#S_Lukasik{
-    top: 256px;
-    left: 257px;
-    transform:rotate(25deg);
-}
-#J_Lukaszewicz{
-    top: 272px;
-    left: 448px;
-    transform:rotate(45deg);
-}
-#J_Miatkowski{
-    top: 185px;
-    left: 427px;
-    transform:rotate(10deg);
-}
-#S_Mieszkowski{
-    top: 341px;
-    left: 604px;
-    transform:rotate(9deg);
-}
-#A_Olechnowicz{
-    top: 353px;
-    left: 435px;
-    transform:rotate(10deg);
-}
-#M_Orlik{
-    top: 378px;
-    left: 620px;
-    transform:rotate(9deg);
-}
-#R_Pawlowski{
-    top: 226px;
-    left: 457px;
-    transform:rotate(25deg);
-}
-#T_Pelak{
-    top: 148px;
-    left: 311px;
-    transform:rotate(45deg);
-}
-#Z_Przybyszewski{
-    top: 344px;
-    left: 626px;
-    transform:rotate(9deg);
-}
-#E_Pytko{
-    top: 338px;
-    left: 311px;
-    transform:rotate(45deg);
-}
-#K_Rakoczy{
-    top: 59px;
-    left: 582px;
-    transform:rotate(25deg);
-}
-#E_Smolinski{
-    top: 85px;
-    left: 883px;
-    transform:rotate(45deg);
-}
-#D_Sosnowski{
-    top: 126px;
-    left: 537px;
-    transform:rotate(25deg);
-}
-#Z_Szendzielarz{
-    top: 72px;
-    left: 761px;
-    transform:rotate(45deg);
-}
-#Z_Szymanowski{
-    top: 400px;
-    left: 582px;
-    transform:rotate(25deg);
-}
-#L_Swider{
-    top: 414px;
-    left: 821px;
-    transform:rotate(45deg);
-}
-#A_Tomaszewski{
-    top: 226px;
-    left: 537px;
-    transform:rotate(25deg);
-}
-#E_Tudruj{
-    top: 195px;
-    left: 425px;
-    transform:rotate(10deg);
-}
-#W_Walicki{
-    top: 426px;
-    left: 737px;
-    transform:rotate(25deg);
-}
-#A_Wasilewski{
-    top: 199px;
-    left: 451px;
-    transform:rotate(10deg);
-}
-#R_Widelski{
-    top: 306px;
-    left: 1075px;
-    transform:rotate(25deg);
-}
+#H_Dekutowski {
+  top: 272px;
+  left: 471px;
+  transform: rotate(2deg);
+  width: 26px !important;
+  height: "" !important;
+  background-size: contain; }
+
+#A_Gajdek {
+  top: 244px;
+  left: 457px;
+  transform: rotate(2deg); }
+
+#S_Glowacki {
+  top: 202px;
+  left: 273px;
+  transform: rotate(2deg); }
+
+#R_Gronski {
+  top: 140px;
+  left: 445px;
+  transform: rotate(2deg);
+  width: 24px !important;
+  height: 12px !important;
+  background-size: contain; }
+
+#M_Kaczmarek {
+  top: 297px;
+  left: 374px;
+  transform: rotate(2deg); }
+
+#S_Kasznica {
+  top: 98px;
+  left: 377px;
+  transform: rotate(2deg); }
+
+#A_Kita {
+  top: 385px;
+  left: 600px;
+  transform: rotate(2deg);
+  width: 26px !important;
+  height: "" !important;
+  background-size: contain; }
+
+#B_Kontrym {
+  top: 62px;
+  left: 422px;
+  transform: rotate(2deg); }
+
+#J_Kozlowski {
+  top: 182px;
+  left: 273px;
+  transform: rotate(2deg); }
+
+#Z_Kulinski {
+  top: 62px;
+  left: 273px;
+  transform: rotate(2deg); }
+
+#S_Kutryb {
+  top: 191px;
+  left: 512px;
+  transform: rotate(2deg); }
+
+#S_Lukasik {
+  top: 42px;
+  left: 273px;
+  transform: rotate(2deg); }
+
+#J_Lukaszewicz {
+  top: 271px;
+  left: 444px;
+  transform: rotate(2deg);
+  width: 26px !important;
+  height: "" !important;
+  background-size: contain; }
+
+#J_Miatkowski {
+  top: 139px;
+  left: 420px;
+  transform: rotate(2deg);
+  width: 24px !important;
+  height: 12px !important;
+  background-size: contain; }
+
+#S_Mieszkowski {
+  top: 353px;
+  left: 601px;
+  transform: rotate(2deg);
+  width: 26px !important;
+  height: "" !important;
+  background-size: contain; }
+
+#A_Olechnowicz {
+  top: 376px;
+  left: 458px;
+  transform: rotate(2deg); }
+
+#M_Orlik {
+  top: 386px;
+  left: 626px;
+  transform: rotate(2deg);
+  width: 26px !important;
+  height: "" !important;
+  background-size: contain; }
+
+#R_Pawlowski {
+  top: 184px;
+  left: 424px;
+  transform: rotate(2deg); }
+
+#T_Pelak {
+  top: 2px;
+  left: 273px;
+  transform: rotate(2deg); }
+
+#Z_Przybyszewski {
+  top: 354px;
+  left: 627px;
+  transform: rotate(2deg);
+  width: 26px !important;
+  height: "" !important;
+  background-size: contain; }
+
+#E_Pytko {
+  top: 22px;
+  left: 273px;
+  transform: rotate(2deg); }
+
+#K_Rakoczy {
+  top: 157px;
+  left: 516px;
+  transform: rotate(2deg); }
+
+#E_Smolinski {
+  top: 162px;
+  left: 273px;
+  transform: rotate(2deg); }
+
+#D_Sosnowski {
+  top: 141px;
+  left: 517px;
+  transform: rotate(2deg); }
+
+#Z_Szendzielarz {
+  top: 142px;
+  left: 273px;
+  transform: rotate(2deg); }
+
+#Z_Szymanowski {
+  top: 282px;
+  left: 273px;
+  transform: rotate(2deg); }
+
+#L_Swider {
+  top: 102px;
+  left: 273px;
+  transform: rotate(2deg); }
+
+#A_Tomaszewski {
+  top: 92px;
+  left: 520px;
+  transform: rotate(2deg); }
+
+#E_Tudruj {
+  top: 152px;
+  left: 420px;
+  transform: rotate(2deg);
+  width: 24px !important;
+  height: 12px !important;
+  background-size: contain; }
+
+#W_Walicki {
+  top: 122px;
+  left: 273px;
+  transform: rotate(2deg); }
+
+#A_Wasilewski {
+  top: 153px;
+  left: 445px;
+  transform: rotate(2deg);
+  width: 24px !important;
+  height: 12px !important;
+  background-size: contain; }
+
+#R_Widelski {
+  top: 262px;
+  left: 273px;
+  transform: rotate(2deg); }
+
+/*NIEZNANE*/
+/*ZOLTE*/
+#NN1 {
+  top: 316px;
+  left: 458px;
+  transform: rotate(2deg); }
+
+#NN2 {
+  top: 331px;
+  left: 458px;
+  transform: rotate(2deg); }
+
+#NN3 {
+  top: 346px;
+  left: 458px;
+  transform: rotate(2deg); }
+
+#NN4 {
+  top: 319px;
+  left: 504px;
+  transform: rotate(2deg); }
+
+#NN5 {
+  top: 334px;
+  left: 504px;
+  transform: rotate(2deg); }
+
+#NN6 {
+  top: 349px;
+  left: 504px;
+  transform: rotate(2deg); }
+
+#NN7 {
+  top: 364px;
+  left: 504px;
+  transform: rotate(2deg); }
+
+#NN8 {
+  top: 379px;
+  left: 504px;
+  transform: rotate(2deg); }
+
+#NN9 {
+  top: 350px;
+  left: 549px;
+  transform: rotate(2deg); }
+
+#NN10 {
+  top: 365px;
+  left: 549px;
+  transform: rotate(2deg); }
+
+#NN11 {
+  top: 380px;
+  left: 549px;
+  transform: rotate(2deg); }
+
+#NN12 {
+  top: 355px;
+  left: 415px;
+  transform: rotate(2deg); }
+
+#NN13 {
+  top: 334px;
+  left: 373px;
+  transform: rotate(2deg); }
+
+#NN14 {
+  top: 350px;
+  left: 371px;
+  transform: rotate(2deg); }
+
+#NN15 {
+  top: 366px;
+  left: 371px;
+  transform: rotate(2deg); }
+
+#NN16 {
+  top: 370px;
+  left: 611px;
+  transform: rotate(2deg); }
+
+#NN17 {
+  top: 336px;
+  left: 670px;
+  transform: rotate(2deg); }
+
+#NN18 {
+  top: 351px;
+  left: 670px;
+  transform: rotate(2deg); }
+
+#NN19 {
+  top: 366px;
+  left: 670px;
+  transform: rotate(2deg); }
+
+#NN20 {
+  top: 382px;
+  left: 670px;
+  transform: rotate(2deg); }
+
+#NN21 {
+  top: 397px;
+  left: 668px;
+  transform: rotate(2deg); }
+
+#NN22 {
+  top: 288px;
+  left: 592px;
+  transform: rotate(2deg); }
+
+#NN23 {
+  top: 266px;
+  left: 593px;
+  transform: rotate(2deg); }
+
+/*ZIELONE*/
+#NN24 {
+  top: 173px;
+  left: 510px;
+  transform: rotate(2deg); }
+
+#NN25 {
+  top: 209px;
+  left: 510px;
+  transform: rotate(2deg); }
+
+#NN26 {
+  top: 241px;
+  left: 510px;
+  transform: rotate(2deg); }
+
+#NN27 {
+  top: 273px;
+  left: 508px;
+  transform: rotate(2deg); }
+
+#NN28 {
+  top: 289px;
+  left: 508px;
+  transform: rotate(2deg); }
+
+#NN29 {
+  top: 307px;
+  left: 551px;
+  transform: rotate(2deg); }
+
+#NN30 {
+  top: 292px;
+  left: 552px;
+  transform: rotate(2deg); }
+
+#NN31 {
+  top: 277px;
+  left: 553px;
+  transform: rotate(2deg); }
+
+#NN32 {
+  top: 260px;
+  left: 554px;
+  transform: rotate(2deg); }
+
+#NN33 {
+  top: 244px;
+  left: 554px;
+  transform: rotate(2deg); }
+
+#NN34 {
+  top: 227px;
+  left: 556px;
+  transform: rotate(2deg); }
+
+#NN35 {
+  top: 210px;
+  left: 556px;
+  transform: rotate(2deg); }
+
+#NN36 {
+  top: 192px;
+  left: 557px;
+  transform: rotate(2deg); }
+
+#NN37 {
+  top: 163px;
+  left: 561px;
+  transform: rotate(2deg); }
+
+#NN38 {
+  top: 147px;
+  left: 561px;
+  transform: rotate(2deg); }
+
+#NN39 {
+  top: 130px;
+  left: 562px;
+  transform: rotate(2deg); }
+
+#NN40 {
+  top: 114px;
+  left: 564px;
+  transform: rotate(2deg); }
+
+#NN41 {
+  top: 98px;
+  left: 565px;
+  transform: rotate(2deg); }
+
+#NN42 {
+  top: 83px;
+  left: 566px;
+  transform: rotate(2deg); }
+
+#NN43 {
+  top: 67px;
+  left: 568px;
+  transform: rotate(2deg); }
+
+#NN44 {
+  top: 122px;
+  left: 423px;
+  transform: rotate(2deg); }
+
+#NN45 {
+  top: 107px;
+  left: 423px;
+  transform: rotate(2deg); }
+
+#NN46 {
+  top: 92px;
+  left: 423px;
+  transform: rotate(2deg); }
+
+#NN47 {
+  top: 77px;
+  left: 423px;
+  transform: rotate(2deg); }
+
+#NN48 {
+  top: 125px;
+  left: 518px;
+  transform: rotate(2deg); }
+
+#NN49 {
+  top: 109px;
+  left: 518px;
+  transform: rotate(2deg); }
+
+#NN50 {
+  top: 297px;
+  left: 421px;
+  transform: rotate(2deg); }
+
+#NN51 {
+  top: 79px;
+  left: 377px;
+  transform: rotate(2deg); }
+
+#NN52 {
+  top: 119px;
+  left: 377px;
+  transform: rotate(2deg); }
+
+#NN53 {
+  top: 62px;
+  left: 377px;
+  transform: rotate(2deg); }
+
+#NN54 {
+  top: 99px;
+  left: 472px;
+  transform: rotate(2deg); }
+
+#NN55 {
+  top: 83px;
+  left: 472px;
+  transform: rotate(2deg); }
+
+#NN56 {
+  top: 68px;
+  left: 471px;
+  transform: rotate(2deg); }
+
+#NN57 {
+  top: 277px;
+  left: 375px;
+  transform: rotate(2deg); }
+
+#NN58 {
+  top: 256px;
+  left: 375px;
+  transform: rotate(2deg); }
+
+#NN59 {
+  top: 236px;
+  left: 376px;
+  transform: rotate(2deg); }
+
+#NN60 {
+  top: 216px;
+  left: 377px;
+  transform: rotate(2deg); }
+
+#NN61 {
+  top: 198px;
+  left: 377px;
+  transform: rotate(2deg); }
+
+#NN62 {
+  top: 167px;
+  left: 377px;
+  transform: rotate(2deg); }
+
+#NN63 {
+  top: 200px;
+  left: 423px;
+  transform: rotate(2deg); }
+
+#NN64 {
+  top: 167px;
+  left: 424px;
+  transform: rotate(2deg); }
+
+#O8_1 {
+  top: 74px;
+  left: 642px;
+  transform: rotate(2deg); }
+
+#O8_2 {
+  top: 96px;
+  left: 640px;
+  transform: rotate(2deg); }
+
+#O8_3 {
+  top: 117px;
+  left: 639px;
+  transform: rotate(2deg); }
+
+#O8_4 {
+  top: 141px;
+  left: 638px;
+  transform: rotate(2deg); }
+
+#O8_5 {
+  top: 165px;
+  left: 637px;
+  transform: rotate(2deg); }
+
+#O8_6 {
+  top: 187px;
+  left: 636px;
+  transform: rotate(2deg); }
+
+#O8_7 {
+  top: 210px;
+  left: 634px;
+  transform: rotate(2deg); }
+
+#O8_8 {
+  top: 233px;
+  left: 634px;
+  transform: rotate(2deg); }
+
+#O8_9 {
+  top: 255px;
+  left: 631px;
+  transform: rotate(2deg); }
+
+#O8_10 {
+  top: 278px;
+  left: 631px;
+  transform: rotate(2deg); }
+
+#O8_11 {
+  top: 300px;
+  left: 630px;
+  transform: rotate(2deg); }
+
+#O7_1 {
+  top: 76px;
+  left: 690px;
+  transform: rotate(2deg); }
+
+#O7_2 {
+  top: 98px;
+  left: 690px;
+  transform: rotate(2deg); }
+
+#O7_3 {
+  top: 121px;
+  left: 688px;
+  transform: rotate(2deg); }
+
+#O7_4 {
+  top: 143px;
+  left: 686px;
+  transform: rotate(2deg); }
+
+#O7_5 {
+  top: 167px;
+  left: 684px;
+  transform: rotate(2deg); }
+
+#O7_6 {
+  top: 191px;
+  left: 684px;
+  transform: rotate(2deg); }
+
+#O7_7 {
+  top: 212px;
+  left: 682px;
+  transform: rotate(2deg); }
+
+#O7_8 {
+  top: 236px;
+  left: 680px;
+  transform: rotate(2deg); }
+
+#O7_9 {
+  top: 257px;
+  left: 680px;
+  transform: rotate(2deg); }
+
+#O7_10 {
+  top: 280px;
+  left: 678px;
+  transform: rotate(2deg); }
+
+#O7_11 {
+  top: 302px;
+  left: 678px;
+  transform: rotate(2deg); }
+
+#O6_1 {
+  top: 77px;
+  left: 746px;
+  transform: rotate(2deg); }
+
+#O6_2 {
+  top: 99px;
+  left: 744px;
+  transform: rotate(2deg); }
+
+#O6_3 {
+  top: 120px;
+  left: 743px;
+  transform: rotate(2deg); }
+
+#O6_4 {
+  top: 144px;
+  left: 742px;
+  transform: rotate(2deg); }
+
+#O6_5 {
+  top: 170px;
+  left: 738px;
+  transform: rotate(2deg); }
+
+#O6_6 {
+  top: 197px;
+  left: 737px;
+  transform: rotate(2deg); }
+
+#O6_7 {
+  top: 218px;
+  left: 737px;
+  transform: rotate(2deg); }
+
+#O6_8 {
+  top: 239px;
+  left: 735px;
+  transform: rotate(2deg); }
+
+#O6_9 {
+  top: 261px;
+  left: 733px;
+  transform: rotate(2deg); }
+
+#O6_10 {
+  top: 286px;
+  left: 734px;
+  transform: rotate(2deg); }
+
+#O6_11 {
+  top: 307px;
+  left: 731px;
+  transform: rotate(2deg); }
+
+#O5_1 {
+  top: 80px;
+  left: 789px;
+  transform: rotate(2deg); }
+
+#O5_2 {
+  top: 101px;
+  left: 785px;
+  transform: rotate(2deg); }
+
+#O5_3 {
+  top: 125px;
+  left: 784px;
+  transform: rotate(2deg); }
+
+#O5_4 {
+  top: 149px;
+  left: 783px;
+  transform: rotate(2deg); }
+
+#O5_5 {
+  top: 172px;
+  left: 781px;
+  transform: rotate(2deg); }
+
+#O5_6 {
+  top: 196px;
+  left: 779px;
+  transform: rotate(2deg); }
+
+#O5_7 {
+  top: 218px;
+  left: 778px;
+  transform: rotate(2deg); }
+
+#O5_8 {
+  top: 242px;
+  left: 779px;
+  transform: rotate(2deg); }
+
+#O5_9 {
+  top: 265px;
+  left: 776px;
+  transform: rotate(2deg); }
+
+#O5_10 {
+  top: 288px;
+  left: 774px;
+  transform: rotate(2deg); }
+
+#O5_11 {
+  top: 312px;
+  left: 773px;
+  transform: rotate(2deg); }
+
+#O4_1 {
+  top: 79px;
+  left: 847px;
+  transform: rotate(2deg); }
+
+#O4_2 {
+  top: 103px;
+  left: 844px;
+  transform: rotate(2deg); }
+
+#O4_3 {
+  top: 127px;
+  left: 844px;
+  transform: rotate(2deg); }
+
+#O4_4 {
+  top: 151px;
+  left: 842px;
+  transform: rotate(2deg); }
+
+#O4_5 {
+  top: 175px;
+  left: 841px;
+  transform: rotate(2deg); }
+
+#O4_6 {
+  top: 199px;
+  left: 838px;
+  transform: rotate(2deg); }
+
+#O4_7 {
+  top: 223px;
+  left: 836px;
+  transform: rotate(2deg); }
+
+#O4_8 {
+  top: 246px;
+  left: 834px;
+  transform: rotate(2deg); }
+
+#O4_9 {
+  top: 268px;
+  left: 834px;
+  transform: rotate(2deg); }
+
+#O4_10 {
+  top: 291px;
+  left: 833px;
+  transform: rotate(2deg); }
+
+#O4_11 {
+  top: 317px;
+  left: 830px;
+  transform: rotate(2deg); }
+
+#O3_1 {
+  top: 80px;
+  left: 897px;
+  transform: rotate(2deg); }
+
+#O3_2 {
+  top: 104px;
+  left: 895px;
+  transform: rotate(2deg); }
+
+#O3_3 {
+  top: 128px;
+  left: 894px;
+  transform: rotate(2deg); }
+
+#O3_4 {
+  top: 152px;
+  left: 891px;
+  transform: rotate(2deg); }
+
+#O3_5 {
+  top: 179px;
+  left: 890px;
+  transform: rotate(2deg); }
+
+#O3_6 {
+  top: 200px;
+  left: 890px;
+  transform: rotate(2deg); }
+
+#O3_7 {
+  top: 224px;
+  left: 888px;
+  transform: rotate(2deg); }
+
+#O3_8 {
+  top: 248px;
+  left: 886px;
+  transform: rotate(2deg); }
+
+#O3_9 {
+  top: 270px;
+  left: 885px;
+  transform: rotate(2deg); }
+
+#O3_10 {
+  top: 295px;
+  left: 883px;
+  transform: rotate(2deg); }
+
+#O3_11 {
+  top: 320px;
+  left: 882px;
+  transform: rotate(2deg); }
+
+#O2_1 {
+  top: 83px;
+  left: 946px;
+  transform: rotate(2deg); }
+
+#O2_2 {
+  top: 107px;
+  left: 945px;
+  transform: rotate(2deg); }
+
+#O2_3 {
+  top: 130px;
+  left: 943px;
+  transform: rotate(2deg); }
+
+#O2_4 {
+  top: 154px;
+  left: 939px;
+  transform: rotate(2deg); }
+
+#O2_5 {
+  top: 180px;
+  left: 940px;
+  transform: rotate(2deg); }
+
+#O2_6 {
+  top: 206px;
+  left: 939px;
+  transform: rotate(2deg); }
+
+#O2_7 {
+  top: 228px;
+  left: 937px;
+  transform: rotate(2deg); }
+
+#O2_8 {
+  top: 251px;
+  left: 934px;
+  transform: rotate(2deg); }
+
+#O2_9 {
+  top: 274px;
+  left: 932px;
+  transform: rotate(2deg); }
+
+#O2_10 {
+  top: 297px;
+  left: 931px;
+  transform: rotate(2deg); }
+
+#O2_11 {
+  top: 323px;
+  left: 929px;
+  transform: rotate(2deg); }
+
+#O1_1 {
+  top: 84px;
+  left: 991px;
+  transform: rotate(2deg); }
+
+#O1_2 {
+  top: 109px;
+  left: 990px;
+  transform: rotate(2deg); }
+
+#O1_3 {
+  top: 134px;
+  left: 988px;
+  transform: rotate(2deg); }
+
+#O1_4 {
+  top: 157px;
+  left: 984px;
+  transform: rotate(2deg); }
+
+#O1_5 {
+  top: 183px;
+  left: 982px;
+  transform: rotate(2deg); }
+
+#O1_6 {
+  top: 209px;
+  left: 981px;
+  transform: rotate(2deg); }
+
+#O1_7 {
+  top: 232px;
+  left: 980px;
+  transform: rotate(2deg); }
+
+#O1_8 {
+  top: 254px;
+  left: 977px;
+  transform: rotate(2deg); }
+
+#O1_9 {
+  top: 278px;
+  left: 976px;
+  transform: rotate(2deg); }
+
+#O1_10 {
+  top: 301px;
+  left: 975px;
+  transform: rotate(2deg); }
+
+#O1_11 {
+  top: 328px;
+  left: 971px;
+  transform: rotate(2deg); }
+
+/*# sourceMappingURL=graves.css.map */

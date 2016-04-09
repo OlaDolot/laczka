@@ -29,6 +29,12 @@
     color: #aecfe5;
 }
 
+.home-menu li a:hover {
+    background: none;
+    border: none;
+    color: cornflowerblue;
+}
+
 .home-menu li a:active {
     background: none;
     border: none;
@@ -51,7 +57,7 @@
     position: relative;
     margin-top: 120px;
     background-color: white;
-    background-image: url(../../img/laczka005.jpg);
+    background-image: url(../../img/laczka006.jpg);
     background-position: center;
     background-repeat: no-repeat;
     width: 1350px;
@@ -65,17 +71,45 @@
     display:block;
 
     opacity: 0.4;
-    width: 30px;
-    height: 15px;
+    width: 31px;
+    height: 14px;
     background: url("../../img/grob_krzyz.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
     z-index:2;
     /*background-color: red;*/
 }
 
+.unknown{
+    background: url("../../img/grob_nn.png") !important;
+    background-size: contain;
+}
+
+.ordinar{
+    position: absolute;
+    float:left;
+    display:block;
+    z-index:2;
+    background: url("../../img/ord_grave.png");
+    background-size: contain;
+    height: 19px;
+    width: 29px;
+    opacity: 0.2;
+
+}
+
 .grave:hover {
     opacity: 0.8;
+    cursor: pointer;
+}
+
+.unknown:hover {
+    opacity: 0.4 !important;
+    cursor: auto;
+}
+
+.ordinar:hover {
+    opacity: 0.6 !important;
 }
 
 .unex{
@@ -91,43 +125,75 @@
 }
 
 .unexplored{
-    width: 100px;
-    height: 280px;
-    background: url("../../img/yellow.png");
+    width: 174px;
+    height: 369px;
+    background: url("../../img/unex.png");
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 1px;
-    margin-left:231px;
+    margin-top: -66px;
+    margin-left: 203px;
 }
 
 .unexplored2{
-    width: 258px;
-    height: 102px;
-    background: url("../../img/yellow2.png");
+    width: 126px;
+    height: 96px;
+    background: url("../../img/unex1.png");
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 339px;
-    margin-left:228px;  /
+    margin-top: 374px;
+    margin-left:210px;
 }
 
 .unexplored3{
-    width: 400px;
-    height: 300px;
-    background: url("../../img/yellow3.png");
+    width: 661px;
+    height: 91px;
+    background: url("../../img/unex2.png");
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 350px;
-    margin-left:290px;
+    margin-top: 382px;
+    margin-left: 322px;
 }
 
 .unexplored4{
-    width: 253px;
-    height: 152px;
-    background: url("../../img/yellow4.png");
+    width: 398px;
+    height: 263px;
+    background: url("../../img/unex3.png");
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 397px;
-    margin-left: 598px;  /
+    margin-top: 74px;
+    margin-left: 1028px;
+    visibility: hidden;
+}
+
+.unexplored5{
+    width: 299px;
+    height: 99px;
+    background: url("../../img/unex4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -67px;
+    margin-left: 763px;
+}
+
+.unexplored6{
+    width: 397px;
+    height: 139px;
+    background: url("../../img/unex5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -68px;
+    margin-left: 369px;
+}
+
+.unexplored0{
+    width: 427px;
+    height: 305px;
+    background: url("../../img/unex0.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 66px;
+    margin-left: 626px;
+    visibility: hidden;
 }
 
 .pantheon{
@@ -135,18 +201,19 @@
     float:left;
     display:block;
     opacity: 0.2;
-    width: 179px;
-    height: 179px;
-    background: url("../../img/blue.png");
+    width: 180px;
+    height: 177px;
+    background: url("../../img/pantheo2.png");
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 101px;
-    margin-left: 388px;
+    margin-top: 103px;
+    margin-left: 413px;
     z-index: 1;
 }
 
 .pantheon:hover {
     opacity: 0.4;
+    cursor: pointer;
 }
 
 /* CONTENT*/
@@ -227,6 +294,33 @@ ul{
     margin-top: 5px;
     line-height: 15px;
     list-style-type: none;
+}
+
+.legend{
+    width: 220px;
+    height: 110px;
+    background-color: white;
+    position: fixed;
+    margin-top: 340px;
+    right: 250px;
+    z-index: 2;
+    border: 2px solid #7f8c8d;
+    border-radius: 7px;
+}
+
+.legend_grave{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 80%;
+}
+
+.legend_text{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 12px;
+    width: 90%;
 }
 
 .rw {
@@ -333,6 +427,20 @@ p {
 
 }
 
+#who2{
+    margin-top: 50px;
+    font-family: 'Ralway_light';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    /*text-transform: uppercase;*/
+    color: #44516c;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22px;
+    width: 90%;
+}
+
 
 #psd {
     font-family: 'Ralway_light';
@@ -341,6 +449,22 @@ p {
     font-weight: 800;
     color: firebrick;
     text-align: center;
+}
+
+#date{
+    font-family: 'Ralway_light';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    color: firebrick;
+    text-align: center;
+}
+
+.cross_O{
+    height: 30px;
+    width: 20px;
+    margin-top: 50px;
+    margin-left: 110px;
 }
 
 .laczka {
@@ -388,3 +512,15 @@ p {
 .people_unex_ul{
     margin-top: 20px;
  }
+
+a{
+     text-decoration: none;
+}
+
+a:visited{
+    color: inherit;
+}
+
+a:hover{
+    color: midnightblue;
+}
